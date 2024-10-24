@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Bootstrap</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #2c3e50;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar .brand {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navbar .navbar-links a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header {
+    text-align: center;
+    background-color: #18bc9c;
+    padding: 50px 0;
+}
+
+.header .avatar {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+
+.header p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.portfolio {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.portfolio h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.portfolio .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.portfolio .portfolio-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about {
+    background-color: #18bc9c;
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.about .btn {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #18bc9c;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact form input {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form .btn {
+    padding: 10px 20px;
+    background-color: #18bc9c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-info p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+    </style>
+
+
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="brand">START BOOTSTRAP</a>
+            <div class="navbar-links">
+                <a href="#">Portfolio</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="container">
+            <img src="https://via.placeholder.com/150" alt="Avatar" class="avatar">
+            <h1>START BOOTSTRAP</h1>
+            <p>Graphic Artist - Web Designer - Illustrator</p>
+        </div>
+    </header>
+
+    <section class="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item"><img src="https://via.placeholder.com/150" alt="Portfolio 1"></div>
+                <div class="portfolio-item"><img src="https://via.placeholder.com/150" alt="Portfolio 2"></div>
+                <div class="portfolio-item"><img src="https://via.placeholder.com/150" alt="Portfolio 3"></div>
+                <div class="portfolio-item"><img src="https://via.placeholder.com/150" alt="Portfolio 4"></div>
+                <div class="portfolio-item"><img src="https://via.placeholder.com/150" alt="Portfolio 5"></div>
+                <div class="portfolio-item"><img src="https://via.placeholder.com/150" alt="Portfolio 6"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            <button class="btn">Download CV</button>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Full name" required>
+                <input type="email" placeholder="Email address" required>
+                <input type="text" placeholder="Phone number" required>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <p>Location | Around The Web | About Freelancer</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
